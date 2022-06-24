@@ -1,0 +1,344 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    color: white;
+    background-color: #13293D;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+#menu{
+    position: relative;
+    margin-top: 25px;
+}
+
+
+
+
+#menu ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    border-radius: 10px;
+}
+
+#menu ul a{
+    display: flex;
+    flex-flow: row wrap;
+    color: white;
+    text-decoration: none;
+    font-size: 0.9em;
+    padding: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+#menu ul li{
+    position: relative;
+    float: right;
+    margin: 0;
+    padding: 0;
+    margin-top: 1px;
+    margin-right: 2%;
+
+}
+
+#menu ul ul{
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    padding: 0;
+    background-color: #0d1b2a;
+    z-index: 1;
+}
+
+#menu ul ul li{
+    float: none;
+    width: 150px;
+}
+
+#menu ul ul a{
+    line-height: 120%;
+    padding: 10px 15px;
+}
+
+#menu ul li:hover > ul{
+    display: block;
+    padding-top: 3px;
+    
+    
+}
+#menu ul a:hover{
+    color: #1f639e;
+}
+
+
+
+.img{
+    position: absolute;
+    margin-left: 50px;
+    top: 18px;
+    
+}
+
+.icon{
+    position: absolute;
+    margin-top: 1%;
+    margin-left: 13%;
+}
+
+.icon2{
+    position: absolute;
+    margin-top: 1px;
+    margin-left: 5px;
+    font-size: 2.2em;
+    width: 300px;
+}
+
+footer{
+    font-size: .71em;
+    text-align: center;
+    color: #ffffff;
+    padding-top: 39%;
+    clear: both;
+    
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover{
+    color: #1f639e;
+}
+
+#contenido{
+    position: absolute;
+    margin-top: 12%;
+    margin-left: 25px;
+    font-size: 1.1em;
+}
+
+hr{
+    width: 1290px;
+    color: white;
+
+}
+
+.soli{
+    margin-left: 65px;
+    width: 300px;
+}
+
+.boton{
+    float: right;
+    margin-top: -43px;
+    margin-bottom: 40px;
+    padding-right: 210px;
+    
+}
+
+.boton a{
+    text-decoration: none;
+    color: white;
+    background-color: rgb(36, 36, 128);
+    padding: 10px 30px;
+    border-radius: 13px;
+}
+
+.boton a:hover{
+    background-color: blue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1024px){
+    body{margin: 0;}
+    #wrapper{width: auto;}
+    #contenido{width: auto;}
+    .main{margin-left: 0;}
+    .nav{
+    float: none;
+    width: auto;
+  }
+
+  header{
+    margin-left: 0;
+
+  }
+
+  
+
+ 
+
+  #menu ul{
+    padding-top:40px;
+    font-size: .70em;
+  }
+  
+   
+   
+    nav ul{text-align: center;}
+    nav a{border-style: none;}
+    .main h2{font-size: 100%;}
+  }
+
+
+
+
+
+
+  @media only screen and (max-width: 800px){
+
+
+    body{margin: 0;}
+    #wrapper{width: auto;}
+    #contenido{width: auto;}
+    main{margin-left: 0;}
+    nav{
+    float: none;
+    width: auto;
+    
+  }
+
+  .wrapper .main h2{
+    margin-left: 160px;
+  }
+
+  .icon{
+    top: 1%;
+    left: 10%;
+  }
+
+  .img img{
+    float: none;
+    height: 36px;
+    width: 30px;
+
+  }
+  
+
+  nav li{display: inline-block; padding: 0.5em;}
+  nav ul{text-align: center;}
+  nav a{border-style: none;}
+  .wrapper .main h2{font-size: 100%;}
+ 
+
+  footer{
+    clear: both;
+    margin-top: 65%;
+  }
+
+  .wrapper .main h2{
+    margin-left: auto;
+
+  
+}
+  }
+
+@media only screen and (max-width: 480px){
+    body{margin: 0;}
+    #wrapper{width: auto;}
+    #contenido{width: auto;}
+    nav{
+    float: none;
+    width: auto;
+  }
+  
+
+  hr{
+    position: relative;
+    width: 360px;
+    color: white;
+  }
+ 
+
+  .icon{
+    top: 4%;
+    left: 10%;
+  }
+
+  .img img{
+    float: none;
+    height: 36px;
+    width: 30px;
+
+  }
+
+  .icon2{
+    left: 10px;
+    font-size: 1.3em;
+   
+    
+}
+
+
+
+
+
+
+
+
+  #contenido h2{
+    font-size: .75em;
+  }
+
+  #contenido .soli{
+    position: relative;
+    font-size: .75em;
+    
+    
+  }
+
+   #contenido .boton{
+    position: absolute;
+    font-size: .50em;
+    margin-left: 230px;
+    margin-top: -27px;
+   
+    
+  }
+
+ #contenido fieldset{
+    font: .70em;
+ }
+
+ #contenido textarea{
+    max-width: 300px;
+    font-size: .80em;
+    height: 70px;
+ }
+
+
+
+  nav li{display: inline-block; padding: 0.5em;}
+  nav ul{text-align: center;}
+  nav a{border-style: none;}
+  .wrapper .main h2{font-size: 100%;}
+
+  footer{
+    clear: both;
+    margin-top: 70%;
+  }
+  
+
+
+
+}

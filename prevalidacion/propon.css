@@ -1,0 +1,229 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+
+.in{
+   position: absolute;
+   margin: 50px;
+   margin: auto 110px;
+}
+
+.in img{
+    position: absolute;
+    margin-top: 120px;
+    margin-left: 90px;
+}
+
+
+
+.in h1{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.in h3{
+  margin: auto 50px;
+  margin-top: 150px;
+  font-size: 1.2em;
+  text-align: center;
+  margin-left: -1px;
+  color: white;
+  background-color: #FC7900;
+  padding-left: 150px;
+  padding-right: 161px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-left: -5.8em;
+  
+  
+ 
+}
+
+
+
+
+.contenedor{
+    color: white;
+    background-color: #13293D;
+    width: 50%;
+    float: right;
+    clear: left;
+    padding-top: 5%;
+    height: 100vh;
+    
+   
+}
+
+#forma{
+    margin-left: 55px;
+    
+}
+
+#Usuario{
+    padding: 5px 140px 5px 15px;
+    display: block; 
+    border-radius: 5px;
+    
+    
+    
+}
+
+#Contraseña{
+    padding: 5px 140px 5px 15px;
+    display: block;
+    border-radius: 5px;
+}
+
+#Inicio{
+    padding: 5px 110px 5px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+h2{
+    font-size: 2em;
+    margin-left: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.h3{
+    margin-top: 30px;
+    
+}
+
+.elemento{
+    padding-left: 150px;
+    padding-top: 20px;
+    
+}
+
+select{
+    padding: 5px 140px 5px 15px;
+    display: block; 
+    border-radius: 5px;
+    
+    
+    
+    
+}
+
+.elementoa{
+    padding-left: 150px;
+    padding-top: 50px;
+    
+}
+
+
+
+.elementoa a{
+    color: white;
+    background-color: rgb(36, 36, 128);
+    padding: 10px 100px 10px 80px;
+    margin-top: 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+a:hover{
+    color: white;
+    background-color: blue;
+    border-color: blue;
+}
+
+@media only screen and (max-width: 1024px){
+
+    
+    .contenedor{
+        margin: auto;
+        width: max-content;
+        margin-top: 150px;
+
+    }
+    .contenedor .elemento a{
+        margin: auto 100px;
+    }
+
+
+    
+    }
+
+@media only screen and (max-width: 800px){
+
+    
+    .contenedor{
+        margin: auto;
+        margin-top: 150px;
+     }
+     .contenedor .elemento a{
+        margin: auto 100px;
+        
+    }
+    
+    
+        
+    }
+
+@media only screen and (max-width: 480px){
+
+    
+    .contenedor{
+        margin: auto;
+        width: auto;
+        margin-top: auto;
+        
+    }
+
+    .in img{
+        display: none;
+    }
+    .in h1{
+        display: none;
+    }
+    .in h3{
+        display: none;
+    }
+    
+    .contenedor h3{
+        position: relative;
+        margin-left: 130px;
+        margin-top: 50px;
+        width: 450px;
+    }
+
+    .encabezados img{
+        display: none;
+    }
+
+    .encabezados h1{
+        display: none;
+    }
+
+    .contenedor .elemento h2{
+        position: absolute;
+        width: auto;
+    }
+
+
+    .contenedor .elemento a{
+        margin: auto 100px;
+    }
+
+    .contenedor .elemento{
+        margin-right: 70px;
+    }
+
+    #forma{
+        margin-top: 120px;
+    }
+        
+        
+            
+    }

@@ -1,0 +1,189 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;    
+}
+
+.contenedor{
+    color: white;
+    background-color: #13293D;
+    width: 50%;
+    float: right;
+    clear: left;
+    padding-top: 10%;
+    height: 100vh;
+   
+}
+
+.contenedor h2{
+    text-align: center;
+    font-size: 1.8em;
+}
+
+
+
+.elemento{
+    padding-left: 190px;
+    padding-top: 20px;
+
+}
+
+#Usuario{
+    padding: 5px 140px 5px 15px;
+    display: block; 
+    border-radius: 5px;
+    
+    
+    
+}
+
+#Contraseña{
+    padding: 5px 140px 5px 15px;
+    display: block;
+    border-radius: 5px;
+}
+
+.elementoa{
+    padding-left: 190px;
+    padding-top: 50px;
+}
+
+.continuar{
+    position: relative;
+    margin-left: 20px;
+}
+
+
+
+.elementoa a{
+    color: white;
+    background-color: rgb(36, 36, 128);
+    padding: 10px 30px 10px 30px;
+    border-radius: 6px;
+    text-decoration: none;
+    
+}
+
+ 
+
+.elementoa a:hover{
+    color: white;
+    background-color: blue;
+    border-color: blue;
+}
+
+.encabezados{
+    position: absolute;
+    max-width: 50%;
+}
+
+header h1{
+    text-align: center;
+    margin-top: 50px;
+    display: block;
+}
+
+header h2{
+ 
+  margin: auto;
+  margin-top: 55px;
+  font-size: 1.2em;
+  text-align: center;
+  margin-left: -1px;
+  color: white;
+  background-color: #FC7900;
+  padding-left: 150px;
+  padding-right: 173px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.contenedor h3{
+    text-align: center;
+    font-size: 1.7em;
+    padding-left: 40px;
+    
+    
+}
+
+.encabezados img{
+    position: absolute;
+    margin-top: 65px;
+    margin-left: 200px;
+}
+
+@media only screen and (max-width: 1024px){
+
+    
+    .contenedor{
+        margin: auto;
+        width: max-content;
+        margin-top: 150px;
+
+    }
+    .contenedor .elemento a{
+        margin: auto 100px;
+    }
+
+
+    
+    }
+
+@media only screen and (max-width: 800px){
+
+    
+    .contenedor{
+        margin: auto;
+        margin-top: 150px;
+     }
+     .contenedor .elemento a{
+        margin: auto 100px;
+        
+    }
+    
+    
+        
+    }
+
+@media only screen and (max-width: 480px){
+
+    
+    .contenedor{
+        margin: auto;
+        width: auto;
+        margin-top: auto;
+        
+    }
+    .contenedor h3{
+        position: relative;
+        margin-left: 130px;
+        margin-top: 50px;
+        width: 450px;
+    }
+
+    .encabezados img{
+        display: none;
+    }
+
+    .encabezados h1, h2{
+        display: none;
+    }
+
+    .contenedor .elemento a{
+        margin: auto 100px;
+    }
+
+    .contenedor .elemento{
+        margin-right: 70px;
+    }
+
+    #forma{
+        margin-top: 120px;
+    }
+        
+        
+            
+    }
